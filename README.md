@@ -1,5 +1,12 @@
 # chatbot
-Simple chatbot for cute conversation .now working in vs code and other IDE's, UI part and voice assistance is under development
-build based on past conversation of text document contains jason value of question and answers 
-txt document convert into dataframe and traied using machine learning algorithems
-output accuracy is 95%
+This project demonstrates a basic dialog prediction system using a Decision Tree Classifier. The system is trained on a small dataset of questions and answers, and it predicts responses to user-input questions. The implementation includes data cleaning, text vectorization, and model training using a pipeline.
+
+## Project Structure
+dialogs.txt: Input file containing initial dialog data.
+script.py: Main script for data processing, model training, and interaction with the user.
+## Requirements
+Python 3.x
+pandas
+numpy
+scikit-learn
+nltk
